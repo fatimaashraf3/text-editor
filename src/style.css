@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+  
+}
+button{
+    margin-right: 1%;
+    width: 4%;
+    height: 4vh;
+    cursor: pointer;
+}
+#back ,#color,#fontsize, #fontfamily{
+    cursor: pointer;
+}
+.top{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: white;
+      width: 115%;
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      border-radius: 10px;
+      /* display: flex; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+#text{
+    width: 118%;
+    height: 60vh;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 1%;
+}
