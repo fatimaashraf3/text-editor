@@ -11,13 +11,30 @@ let back = document.getElementById("back")
 let color = document.getElementById("color")
 
 bold.addEventListener("click" , function(){
-    text.style.fontWeight = "bold"
+    if(text.style.fontWeight == "bold"){
+      text.style.fontWeight = "normal"
+    }
+    else{
+ text.style.fontWeight = "bold"
+    }  
 })
 italic.addEventListener("click", function(){
-    text.style.fontStyle = "italic"
+    if(text.style.fontStyle == "italic"){
+        text.style.fontStyle = "normal"
+    }
+    else{
+            text.style.fontStyle = "italic"
+    }
+
 })
 underline.addEventListener("click", function(){
-    text.style.textDecoration = "underline"
+    if(text.style.textDecoration == "underline"){
+        text.style.textDecoration = "none"
+    }
+    else{
+         text.style.textDecoration = "underline"
+    }
+   
 })
 center.addEventListener("click",function(){
     text.style.textAlign = "center"
